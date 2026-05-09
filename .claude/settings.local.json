@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(rm \"सीजन 6 का पूरा 100 एपिसोड आउटलाइन.txt\")",
+      "Bash(mv \"सीजन 1 का पूरा 150 एपिसोड आउटलाइन.txt\" \"सीजन 1 का पूरा आउटलाइन.txt\")",
+      "Bash(mv \"सीजन 2 का पूरा 125 एपिसोड आउटलाइन.txt\" \"सीजन 2 का पूरा आउटलाइन.txt\")",
+      "Bash(mv \"सीजन 3 का पूरा 125 एपिसोड आउटलाइन.txt\" \"सीजन 3 का पूरा आउटलाइन.txt\")",
+      "Bash(mv \"सीजन 4 का पूरा 125 एपिसोड आउटलाइन.txt\" \"सीजन 4 का पूरा आउटलाइन.txt\")",
+      "Bash(sed -n '265,275p' Chapter33.txt)",
+      "Bash(sed -n '3,8p' Chapter34.txt)",
+      "Bash(sed -n '30,38p' Chapter35.txt)",
+      "Bash(sed -n '205,215p' Chapter38.txt)",
+      "Bash(sed -n '183,190p' Chapter38.txt)"
+    ]
+  }
+}
