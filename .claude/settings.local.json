@@ -12,7 +12,12 @@
       "Bash(sed -n '3,8p' Chapter34.txt)",
       "Bash(sed -n '30,38p' Chapter35.txt)",
       "Bash(sed -n '205,215p' Chapter38.txt)",
-      "Bash(sed -n '183,190p' Chapter38.txt)"
+      "Bash(sed -n '183,190p' Chapter38.txt)",
+      "Bash(node -e \"const fs=require\\('fs'\\);const f='E:/New folder/MyStories/MafiaKingHiddenBloodline/Chapter/Chapter92.txt';console.log\\('Ch92:',fs.readFileSync\\(f\\).length,'bytes'\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\);[88,89,84,85,86].forEach\\(n=>{const f='E:/New folder/MyStories/MafiaKingHiddenBloodline/Chapter/Chapter'+n+'.txt';const s=fs.readFileSync\\(f\\).length;console.log\\('Ch'+n+':',s,'bytes —',\\(s>=33000?'OK':'NEED '+\\(33000-s\\)+' more'\\)\\);}\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\);const f='E:/New folder/MyStories/MafiaKingHiddenBloodline/Chapter/Chapter89.txt';console.log\\('Ch89:',fs.readFileSync\\(f\\).length,'bytes'\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\);const f='E:/New folder/MyStories/MafiaKingHiddenBloodline/Chapter/Chapter84.txt';console.log\\('Ch84:',fs.readFileSync\\(f\\).length,'bytes'\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\);[85,86].forEach\\(n=>{const f='E:/New folder/MyStories/MafiaKingHiddenBloodline/Chapter/Chapter'+n+'.txt';const s=fs.readFileSync\\(f\\).length;console.log\\('Ch'+n+':',s,'bytes —',\\(s>=33000?'OK':'NEED '+\\(33000-s\\)+' more'\\)\\);}\\);\")"
     ]
   }
 }
